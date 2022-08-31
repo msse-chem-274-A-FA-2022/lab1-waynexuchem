@@ -20,10 +20,12 @@ In this lab, you will be using the molecular simulation code we wrote in Chem 28
     ```
 
 4. Review the Makefile in `mcsim_python`. Write a comment above each target explaining what the target does.
+
 Answer: all the comments are in the Makerfile.
 
 ### Section 2 - Runnning Simulations
 1. Use the notebook `run_mcsim.ipynb` to run Monte Carlo simulations. Follow the instructions in the notebook.
+
 Q3: the newly generated rdf looks messy, no curly shape as the 1st simulation with extensive equilibration. Also particle distribution for the 1st simulation is more uniform than the 2nd simulation.
 The non-zero values close to zero distance is un-physical, indicating the particles are physically overlapped and it can't happen.
 
